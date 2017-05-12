@@ -1,5 +1,5 @@
 <?php
-    $key = '716fe551154fdcff6e3c448c2fac6135';
+    $key = '';
     $q = $_GET["rId"];
   #  $q = '35120';
     echo '<body background="http://faceitformobile.com/wp-content/uploads/2014/06/Face-It-black.jpg" >';
