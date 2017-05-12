@@ -1,6 +1,6 @@
 <?php 
     echo '<body background="http://img.wallpaper.sc/desktop/images/5k/desktop-pc-5120x2880-wallpaper_00009.jpg" >';
-    $key = '716fe551154fdcff6e3c448c2fac6135';
+    $key = '';
     $q = $_GET["q"];
     $json = file_get_contents('http://food2fork.com/api/search?key=' . $key . '&q=' . $q); # Get JSON from food2fork
     $obj = json_decode($json); # Decode JSON into STD object
